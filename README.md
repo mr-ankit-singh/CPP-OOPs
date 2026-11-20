@@ -28,24 +28,31 @@ Whether you're **starting out with OOPs** or **revising before an interview**, t
 
 ## 🗂️ Repository Structure
 
+One file = one roadmap section. Every topic is its own runnable block (select it → `Ctrl + Alt + N`).
+
 ```
-📦 C++-OOPs-Notes
- ┣ 📜 00_Roadmap.cpp                    → Full OOPs learning roadmap (topic tree)
- ┣ 📜 01_Introduction.cpp               → What is OOP, POP vs OOP, Core Features
- ┣ 📜 02_ClassObject.cpp                → Class, Object, this Pointer, Access Specifiers
- ┣ 📜 02_1_ArrayOfObjects.cpp           → Array of Objects (with dynamic allocation)
- ┣ 📜 02_2_ObjectAsFunctionArgument.cpp → Pass by Value / Reference / Return Object
- ┣ 📜 03_AccessModifiers.cpp            → public, private, protected explained
- ┣ 📜 04_StaticKeyword.cpp              → Static Data Members & Static Member Functions
- ┣ 📜 05_Constructor.cpp                → Types of Constructors, Copy Constructor, etc.
- ┣ 📜 06_Encapsulation.cpp              → Data Binding, Data Hiding, Real-life Examples
- ┣ 📜 07_Abstraction.cpp                → Abstraction vs Encapsulation, Abstract Classes
- ┣ 📜 08_VirtualFunction.cpp            → Virtual Functions, Pure Virtual, vtable/vptr
- ┣ 📜 09_Inheritance.cpp                → Types of Inheritance, Diamond Problem
- ┣ 📜 10_Polymorphism.cpp               → Compile-time & Runtime Polymorphism (full guide)
- ┣ 📜 11_FriendFunction.cpp             → Friend Function & Friend Class
- ┣ 📜 12_OperatorOverloading.cpp        → Unary & Binary Operator Overloading
- ┗ 📜 README.md                         → You are here 📍
+📦 Object Oriented Programming
+ ┣ 📜 00_Roadmap.cpp                 → Full OOP roadmap (topic tree + file map)
+ ┣ 📜 01_Introduction.cpp            → What is OOP, POP vs OOP, features, multi-paradigm
+ ┣ 📜 02_ClassObject.cpp             → Class, object, access, member fns, this, const, mutable
+ ┣ 📜 03_Constructors.cpp            → All constructors, destructor, deep copy, move, Rule of 0/3/5, RAII
+ ┣ 📜 04_Encapsulation.cpp           → Data hiding, getters/setters, validation, const-correctness
+ ┣ 📜 05_Abstraction.cpp             → Abstract classes, pure virtual, interfaces, vs encapsulation
+ ┣ 📜 06_Inheritance.cpp             → Types, access table, diamond problem, final, slicing
+ ┣ 📜 07_Polymorphism.cpp            → Compile-time & runtime, override, CRTP, variant/visit
+ ┣ 📜 08_FriendFunction.cpp          → Friend function / member / class, friendship rules
+ ┣ 📜 09_OperatorOverloading.cpp     → Unary, binary, =, <<, [], (), ->, <=>, conversion, new/delete
+ ┣ 📜 10_VirtualFunction.cpp         → vtable/vptr, rules, pure virtual, virtual destructor, traps
+ ┣ 📜 11_StaticMembers.cpp           → Static data & functions, inline static, object counting
+ ┣ 📜 12_TypeCasting.cpp             → static/dynamic/const/reinterpret_cast, RTTI, typeid
+ ┣ 📜 13_ClassRelationships.cpp      → Association, aggregation, composition, dependency
+ ┣ 📜 14_ExceptionsWithClasses.cpp   → Custom exceptions, hierarchy, noexcept, stack unwinding
+ ┣ 📜 15_ObjectLifetimeMemory.cpp    → Stack vs heap, smart pointers, memory layout, dangling
+ ┣ 📜 16_ClassTemplates.cpp          → Class templates, specialization, CRTP, templates vs virtual
+ ┣ 📜 17_DesignPrinciples.cpp        → SOLID, DRY, KISS, YAGNI, Law of Demeter
+ ┣ 📜 18_DesignPatterns.cpp          → Singleton, Factory, Builder, Observer, Strategy ... + idioms
+ ┣ 📜 19_MiniProjects.cpp            → Student, Bank, Employee, Shapes, Library, Parking Lot
+ ┗ 📜 README.md                      → You are here 📍
 ```
 
 ---
@@ -57,21 +64,21 @@ Whether you're **starting out with OOPs** or **revising before an interview**, t
 <td>
 
 ### 🏗️ Fundamentals
-- ✅ Classes & Objects
-- ✅ Access Specifiers (public/private/protected)
-- ✅ `this` Pointer
-- ✅ Array of Objects
-- ✅ Object as Function Argument
+- ✅ Classes & Objects, class vs struct
+- ✅ Access Specifiers
+- ✅ `this` Pointer & method chaining
+- ✅ const / mutable members
+- ✅ Constructors & Destructors (all types)
+- ✅ Copy / Move, Rule of 0/3/5, RAII
 - ✅ Static Members
-- ✅ Constructors & Destructors
 
 </td>
 <td>
 
 ### 🎭 Core OOP Pillars
 - ✅ Encapsulation
-- ✅ Abstraction
-- ✅ Inheritance (all types)
+- ✅ Abstraction & Interfaces
+- ✅ Inheritance (all types, diamond problem)
 - ✅ Polymorphism (Compile-time & Runtime)
 
 </td>
@@ -80,20 +87,23 @@ Whether you're **starting out with OOPs** or **revising before an interview**, t
 <td>
 
 ### ⚡ Advanced Concepts
-- ✅ Virtual Functions
-- ✅ Pure Virtual Functions
-- ✅ Abstract Classes
-- ✅ vtable & vptr Mechanism
-- ✅ Virtual Destructors
+- ✅ Virtual Functions, vtable & vptr
+- ✅ Abstract Classes, Virtual Destructors
+- ✅ Type Casting & RTTI
+- ✅ Exceptions with Classes
+- ✅ Smart Pointers & Object Lifetime
+- ✅ Class Templates & CRTP
 
 </td>
 <td>
 
-### 🔧 Special Topics
+### 🔧 Design
 - ✅ Friend Function & Friend Class
-- ✅ Operator Overloading (Unary & Binary)
-- ✅ Static vs Dynamic Binding
-- ✅ Function Overloading vs Overriding
+- ✅ Operator Overloading (all operators)
+- ✅ Class Relationships (UML)
+- ✅ SOLID & Design Principles
+- ✅ Design Patterns & C++ Idioms
+- ✅ 6 Mini Projects (incl. Parking Lot LLD)
 
 </td>
 </tr>
@@ -108,7 +118,7 @@ Whether you're **starting out with OOPs** or **revising before an interview**, t
 | 📘 **Concept-first** | Every file starts with a clear definition before diving into code |
 | 🧩 **Real examples** | Bank Account, Student, Shape, Car, TV — real-world analogies used throughout |
 | 🗣️ **Interview-ready** | Key interview questions & tricky points highlighted in every topic |
-| 🧱 **Structured** | Numbered files (00 → 12) follow a logical learning order |
+| 🧱 **Structured** | Numbered files (00 → 19) follow the roadmap order |
 | 💻 **Runnable code** | All examples compile and run directly — no missing pieces |
 
 ---
@@ -121,26 +131,29 @@ Whether you're **starting out with OOPs** or **revising before an interview**, t
    cd <repo-name>
    ```
 
-2. **Compile any file** using g++
+2. **Run one block** — every file has many small programs (each with its own `main()`).
+   Select one block in VS Code and press `Ctrl + Alt + N` (Code Runner), or copy it to a file:
    ```bash
-   g++ 10_Polymorphism.cpp -o output
+   g++ -std=c++20 block.cpp -o output
    ./output
    ```
 
-3. **Follow the numbering** (00 → 12) for a structured learning path, or jump directly to the topic you want to revise.
+3. **Follow the numbering** (00 → 19) for a structured learning path, or jump directly to the topic you want to revise.
 
 ---
 
 ## 🧭 Recommended Learning Path
 
 ```
-00_Roadmap  →  01_Introduction  →  02_ClassObject  →  03_AccessModifiers
+00_Roadmap → 01_Introduction → 02_ClassObject → 03_Constructors
      ↓
-04_StaticKeyword  →  05_Constructor  →  06_Encapsulation  →  07_Abstraction
+04_Encapsulation → 05_Abstraction → 06_Inheritance → 07_Polymorphism
      ↓
-08_VirtualFunction  →  09_Inheritance  →  10_Polymorphism
+08_FriendFunction → 09_OperatorOverloading → 10_VirtualFunction → 11_StaticMembers
      ↓
-11_FriendFunction  →  12_OperatorOverloading
+12_TypeCasting → 13_ClassRelationships → 14_ExceptionsWithClasses → 15_ObjectLifetimeMemory
+     ↓
+16_ClassTemplates → 17_DesignPrinciples → 18_DesignPatterns → 19_MiniProjects
 ```
 
 ---

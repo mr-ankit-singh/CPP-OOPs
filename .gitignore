@@ -1,0 +1,7 @@
+# Code Runner temp files
+tempCodeRunnerFile*
+
+# compiled programs
+*.exe
+*.out
+*.o
